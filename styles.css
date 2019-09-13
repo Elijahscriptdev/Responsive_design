@@ -374,16 +374,22 @@ figure {
     height: 300px;
 }
 
+.items1 h2 {
+    color: red;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
 /*******************************************Last section*****************************************/
 .latest_deals{
     width: 100%;
+    margin-top: 20px;
+    margin-left: 24px;
 }
 
 .latest_deals h2 {
     cursor: pointer;
     color: red;
-    margin-top: 20px;
-    margin-left: 24px;
     font-weight: 700;
     font-size: 2.3rem; 
 }
@@ -399,5 +405,70 @@ figure {
 }
 
 /*******************************************Footer section******************************************/
+footer {
+    margin-top: 20px;
+}
 
+.first_footer {
+    padding: 2%;
+    color: white;
+    background-color: rgb(27, 27, 27);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+}
 
+.first_footer ul {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.first_footer ul li {
+    padding: 0 1%;
+}
+
+.links {
+    justify-content: center;
+}
+
+.links i {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(78, 78, 78);
+}
+
+.links i:hover {
+    background-color: black;
+}
+
+.footer-links {
+    justify-content: center;
+}
+
+.footer-links a {
+    color: gray;
+}
+
+.footer-links a:hover{
+    color: white;
+}
+
+.secondary_footer {
+    height: 97px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+   justify-content: center;
+   padding-top: 40px;
+}
+
+.secondary_footer img {
+    padding-right: 18%;
+    width: 50px;
+}
+
+.secondary_footer p {
+    padding-right: 1%;
+    color: white;
+}
