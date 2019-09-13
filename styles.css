@@ -369,8 +369,35 @@ figure {
 }
 
 .app_sec figure {
+    margin-top: 20px;
     width: 400px;
     height: 300px;
 }
 
-/*******************************************Fourth section*****************************************/
+/*******************************************Last section*****************************************/
+.latest_deals{
+    width: 100%;
+}
+
+.latest_deals h2 {
+    cursor: pointer;
+    color: red;
+    margin-top: 20px;
+    margin-left: 24px;
+    font-weight: 700;
+    font-size: 2.3rem; 
+}
+
+.latest_deals h2:hover {
+    color: black;
+}
+
+.deals_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 20px;
+}
+
+/*******************************************Footer section******************************************/
+
+
