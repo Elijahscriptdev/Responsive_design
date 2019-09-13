@@ -171,6 +171,12 @@ nav .grid-nav-wrapper > ul > li > a {
     color: rgb(240, 238, 238);
 }
 
+.lower-nav-wrapper{
+    display: grid;
+    grid-template-columns: 97% 10%;
+}
+
+
 .lower-navbar {
     width: 100%;
     background-color: rgb(255, 255, 255);
@@ -189,4 +195,59 @@ nav .grid-nav-wrapper > ul > li > a {
     padding: 3px;
     width: 100%;
     background-color: rgb(255, 255, 14);
+}
+
+.search-button {
+    border-left: 1px solid gray;
+    margin-top: 1%;
+}
+
+.search-button > a {
+    padding: 13%;
+    color: gray;
+}
+
+/**********************************************Section Content****************************************************/
+.first-section {
+    margin-top: 97px;
+    color: white;
+}
+
+.first-section p, h1, h2, i {
+    color: white;
+    font-family: sans-serif;
+    vertical-align: baseline;
+}
+
+.first_content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 1%;
+}
+
+.par {
+    display: flex;
+    flex-direction: row;
+}
+
+.par * {
+    padding: 3px;
+}
+
+.first_article {
+    line-height: 70px;
+    background-color: red;
+}
+
+.first_article h2 {
+    font-weight: 400;
+    font-size: 46px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.second_article {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 1%;
+    background-color: gray;
 }
