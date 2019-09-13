@@ -361,3 +361,16 @@ figure {
 }
 
 /**************************************************Third Section********************************************/
+.app_sec {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+    margin-left: 24px;
+}
+
+.app_sec figure {
+    width: 400px;
+    height: 300px;
+}
+
+/*******************************************Fourth section*****************************************/
