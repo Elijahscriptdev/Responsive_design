@@ -231,7 +231,6 @@ a {
 }
 
 .item1-class  .par-one{
-    background-color: green;
     color: white;
     width: 100%;
     position: absolute;
@@ -672,27 +671,31 @@ footer {
         display: block;
     }
 
-    .first-content {
+    .first_content {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second_article{
+        margin-top: 5px; 
+        margin-left: 1%;
         display: grid;
         grid-template-rows: 1fr 1fr;
         grid-row-gap: 5px;
-
     }
-
     
     .first_article {
         width: 100%;
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 1;
-        grid-row-end: 2;
     }
 
     .first_item {
+        height: 230px;
        background-color: #696868
     }
 
     .second_item {
+        height: 230px;      
        background-color: #696868;
     }
 
