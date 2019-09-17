@@ -163,7 +163,7 @@ a {
 
 .second-list li a,
 #logo-container a span {
-    font-family: Shentox, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 500;
     text-transform: uppercase;
     color: #aaa;
@@ -215,47 +215,35 @@ a {
 
 /* section one : */
 
-.first-section {
+.first_content {
+    width: 100%;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-auto-rows: auto;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-    height: 75vh;
-    max-height: 560px;
-    margin-bottom: 5vh;
-    padding: 2vh;
+    grid-column-gap: 1%;
 }
 
 .first_article {
     background-color: red;
-    background-size: cover;
-    background-position: center;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    height: 420px;
-    position: relative;
-    width: 100%;
+    height: 460px;
+}
+
+.second_article {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 20px;
 }
 
 .par {
+    color: white;
     display: flex;
     flex-direction: row;
 }
 
 .item1-class h2 {
-    padding-left: 5%;
-    position: absolute;
-   bottom: 100px;
+    padding-left: 1%;
+    bottom: 100px;
 }
 
-.item1-class h2 {
-    padding-left: 5%;
-    position: absolute;
-    top: 45%;
-}
 
 .item1-class,
 .items-class,
@@ -264,30 +252,23 @@ a {
     cursor: pointer;
     height: 100%;
     left: 0%;
-    position: absolute;
 }
 
 .items-class h3,
 .items3-class h3 {
     margin: 0;
-    padding-left: 5%;
+    padding-left: 1%;
 }
 
 .item1-class p {
-    position: absolute;
     bottom: 2%;
     font-size: 0.9em;
-    padding-left: 5%;
+    padding-left: 1%;
 }
 
-.first-item {
+.first_item {
     color: white;
     background-color: gray;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    position: relative;
 }
 
 .items-class p {
@@ -297,14 +278,9 @@ a {
     padding-left: 5%;
 }
 
-.second-item {
+.second_item {
     color: white;
     background-color: grey;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    position: relative;
 }
 
 .items3-class p {
@@ -321,7 +297,6 @@ figure {
     margin: 0;
 }
 
-.first-section,
 .latest_deals {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -360,17 +335,6 @@ figure {
     color: red;
 }
 
-.row-1,
-.row-2,
-.row-3,
-.row-4,
-.row-5,
-.row-6,
-.row-7,
-.row-8 {
-    position: relative;
-}
-
 .latest_deals {
     background-color: aquamarine;
     color: #000;
@@ -378,11 +342,10 @@ figure {
     height: 80px;
     overflow: hidden;
     pointer-events: none;
-    position: absolute;
     right: 0;
     top: 0;
     width: 80px;
-    z-index: 10;
+
 }
 
 .deal div {
@@ -390,7 +353,6 @@ figure {
     font-size: 14px;
     font-weight: 700;
     left: 8px;
-    position: relative;
     text-align: center;
     text-transform: uppercase;
     top: 20px;
@@ -566,7 +528,7 @@ footer {
     .first_content {
         grid-template-rows: auto;
         height: 61vh;
-        max-height: 560px;
+        max-height: 460px;
     }
 
     .item1-class h3,
@@ -594,12 +556,8 @@ footer {
         grid-template-columns: repeat(3, 1fr);
     }
 
-    .s3-2m,
-    .back-logo {
-        display: none;
-    }
-
     .latest-funding {
+        display: flex;
         flex-direction: column;
     }
 
@@ -709,8 +667,7 @@ footer {
 
     .first-section {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: 40vh 40vh 40vh;
+        grid-template-rows: 1fr 1fr 1fr;
         grid-row-gap: 5px;
         height: 125vh;
         max-height: 200vh;
@@ -725,22 +682,15 @@ footer {
         grid-row-end: 2;
     }
 
-    .first-item {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 2;
-        grid-row-end: 3;
+    .first_item {
+       background-color: #696868
     }
 
-    .second-item {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 3;
-        grid-row-end: 4;
+    .second_item {
+       background-color: #696868;
     }
 
     .first-section,
-    .latest-funding,
     .latest_news,
     .apple_content,
     .latest_deals {
@@ -748,6 +698,14 @@ footer {
         flex-direction: column;
     }
 
+    .latest-funding {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .latest-funding > div {
+        padding: 20px;
+    }
     .row-1,
     .row-2,
     .row-3,
