@@ -135,7 +135,6 @@ ul li ul li:first-child {
 
 .grid-nav-wrapper {
     background: #131313;
-    color: #aaa;
     display: flex;
     flex-direction: row;
     height: 31px;
@@ -158,7 +157,7 @@ a {
 
 .nav-left li a,
 .nav-right li a {
-    color: #aaa;
+    color: rgb(197, 196, 196);
 }
 
 .second-list li a,
@@ -225,7 +224,10 @@ a {
 
 .first_article {
     margin-left: 1%;
-    background-color: red;
+    background-image: linear-gradient(to top left, rgb(184, 3, 3), rgb(87, 2, 2), rgb(8, 5, 5), transparent), url(images/img6.jpg);
+    opacity: 0.8;
+    background-size: contain;
+    background-repeat: no-repeat;
     position: relative;
     height: 460px;
 }
@@ -243,7 +245,7 @@ a {
     grid-row-gap: 20px;
 }
 
-.par {
+.first_article .par {
     color: white;
     display: flex;
     flex-direction: row;
@@ -256,7 +258,7 @@ a {
 
 .item1-class .par-one h2 {
     font-size: 36px;
-    color: white;
+    color:white;
 }
 
 .item1-class .par-one p {
@@ -266,34 +268,17 @@ a {
     padding-left: 1%;
 }
 
-.items-class h3,
-.items3-class h3 {
-    margin: 0;
-    padding-left: 1%;
-}
-
-.first_item {
-    color: white;
-    background-color: gray;
-}
-
-.items-class p {
-    position: absolute;
-    bottom: 1%;
-    font-size: 0.9em;
-    padding-left: 5%;
-}
-
 .second_item {
     color: white;
-    background-color: grey;
+    background-image: url(images/img6.jpg);
+    opacity: 0.7;
+    background-size: contain;
 }
 
-.items3-class p {
-    position: absolute;
-    bottom: 1%;
-    font-size: 0.9em;
-    padding-left: 5%;
+.second_item .par-one .par {
+    display: flex;
+    flex-direction: row;
+
 }
 
 /* section two and section five: */
@@ -323,6 +308,14 @@ figure {
     padding: 0 20px;
 }
 
+.news_content a{
+    color: #3f3f3f
+}
+
+.news_content a:hover {
+    color: gray;
+}
+
 .row-1 figure img,
 .row-2 figure img,
 .row-3 figure img,
@@ -331,8 +324,8 @@ figure {
 .row-6 figure img,
 .row-7 figure img,
 .row-8 figure img{
-    width: 320px;
-    height: 260px;
+    width: 300px;
+    height: 200px;
 }
 
 
@@ -351,15 +344,13 @@ figure {
 
 .first_content h2,
 .latest_deals h2 {
-    color: black;
     cursor: pointer;
-    font-size: 15px;
     margin: 5px 0;
 }
 
 .first_content h2:hover,
 .latest_deals h2:hover {
-    color: red;
+    color: grey;
 }
 
 .latest_deals {
@@ -397,18 +388,6 @@ figure {
     height: 200px;
 }
 /* section three: */
-
-h2 {
-    color: red;
-    font-size: 18px;
-    font-weight: bold;
-    padding: 10px 15px;
-}
-
-h2:hover {
-    color: black;
-    cursor: pointer;
-}
 
 .latest-funding {
     width: 100%
