@@ -287,16 +287,7 @@ figure {
     margin: 0;
 }
 
-.latest_deals {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: auto;
-    grid-gap: 10px;
-    padding: 0 20px;
-}
-
-.first-section img,
-.latest_deals img {
+.first-section img {
     width: 100%;
 }
 
@@ -354,27 +345,48 @@ figure {
 }
 
 .latest_deals {
-    background-color: aquamarine;
-    color: #000;
-    display: block;
-    height: 80px;
-    overflow: hidden;
-    pointer-events: none;
-    right: 0;
-    top: 0;
-    width: 80px;
+    width: 100%;
 
 }
 
-.deal div {
+.caption a{
+color: #5a5a5a;
+}
+
+.caption a:hover {
+    color: #969595;
+}
+
+.deals {
+    background-image: url(images/img6.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: rgb(250, 249, 249);
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.deals_content {
+    display: grid;
+    grid-template-columns:  repeat(4, 1fr);
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+
+.deals div {
     transform: rotate(45deg);
     font-size: 14px;
     font-weight: 700;
     left: 8px;
+    position: relative;
     text-align: center;
     text-transform: uppercase;
     top: 20px;
     width: 100%;
+    z-index: 0;
+    background-color: greenyellow;
 }
 
 .apple_content {
@@ -391,6 +403,18 @@ figure {
 
 .latest-funding {
     width: 100%
+}
+
+.items1 figure{
+    background-image: url(images/img5.jpg)
+}
+
+.latest_news h2, .latest-funding h2, .app_sec h2, .apple_special h2, .latest_deals h2{
+    color: red;
+}
+
+.apple_special {
+    margin-left: 20px;
 }
 
 .latest_funding_top {
@@ -599,8 +623,7 @@ footer {
 
     /* section two and section five: */
 
-    .first_content,
-    .latest_deals {
+    .first_content {
         grid-template-columns: repeat(3, 1fr);
     }
 
@@ -745,9 +768,10 @@ footer {
         background-color: #696868;
     }
 
-    .first-section,
+    
     .latest_news,
-    .apple_content,
+    .apple_special,
+    .app_sec
     .latest_deals {
         display: flex;
         flex-direction: column;
