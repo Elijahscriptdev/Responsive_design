@@ -313,7 +313,7 @@ figure {
 .row-5 figure img,
 .row-6 figure img,
 .row-7 figure img,
-.row-8 figure img{
+.row-8 figure img {
     width: 300px;
     height: 200px;
 }
@@ -403,6 +403,7 @@ figure {
     width: 320px;
     height: 200px;
 }
+
 /* section three: */
 
 .latest-funding {
@@ -445,13 +446,13 @@ figure {
     color: gray;
 }
 
-.items1 figure{
+.items1 figure {
     background-image: url(images/img5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.latest_news h2, .latest-funding h2, .apple_special h2, .latest_deals h2{
+.latest_news h2, .latest-funding h2, .apple_special h2, .latest_deals h2 {
     color: red;
 }
 
@@ -492,17 +493,17 @@ figure {
     background-color: #f42;
 }
 
-.funding-first h3{
+.funding-first h3 {
     margin-left: 30px;
 }
 
-.funding_img a{
+.funding_img a {
     color: black;
     font-size: 14px;
     font-weight: 400px;
 }
 
-.funding_img .des-title{
+.funding_img .des-title {
     border-top: 1px solid red;
 }
 
@@ -675,11 +676,11 @@ footer {
        width: 240px;
    }
 
-   .row-1,.row-2, .row-3, .row-4, .row-5, .row-6, .row-7, .row-8 {
+   .row-1, .row-2, .row-3, .row-4, .row-5, .row-6, .row-7, .row-8 {
        width: 260px;
    }
 
-   .row-1 figure img,
+    .row-1 figure img,
     .row-2 figure img,
     .row-3 figure img,
     .row-4 figure img,
@@ -710,7 +711,7 @@ footer {
         color: red;
     }
 
-    .app_sec_link{
+    .app_sec_link {
         width: 400px;
         text-decoration: none;
         color: #555;
@@ -799,7 +800,7 @@ footer {
 
     .first_item {
         height: 230px;
-        background-color: #696868
+        background-color: #696868;
     }
 
     .second_item {
@@ -807,7 +808,6 @@ footer {
         background-color: #696868;
     }
 
-    
     .news_content,
     .apple_content,
     .items1 {
@@ -822,7 +822,7 @@ footer {
     .row-5,
     .row-6,
     .row-7,
-    .row-8, .apple_content figure{
+    .row-8, .apple_content figure {
       display: flex;
       flex-direction: row;
     }
