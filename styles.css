@@ -278,7 +278,6 @@ a {
 .second_item .par-one .par {
     display: flex;
     flex-direction: row;
-
 }
 
 /* section two and section five: */
@@ -299,8 +298,8 @@ figure {
     padding: 0 20px;
 }
 
-.news_content a{
-    color: #3f3f3f
+.news_content a {
+    color: #3f3f3f;
 }
 
 .news_content a:hover {
@@ -344,11 +343,10 @@ figure {
 
 .latest_deals {
     width: 100%;
-
 }
 
 .caption a {
-color: #5a5a5a;
+    color: #5a5a5a;
 }
 
 .caption a:hover {
@@ -733,7 +731,6 @@ footer {
         border-bottom: 1px solid #555;
         line-height: 30px;
     }
-
 }
 
 /* small screen width less than 769 first break point */
