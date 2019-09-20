@@ -843,14 +843,14 @@ footer {
         height: 50px;
     }
 
-    .row-1 figcaption,
-    .row-2 figcaption,
-    .row-3 figcaption,
-    .row-4 figcaption,
-    .row-5 figcaption,
-    .row-6 figcaption,
-    .row-7 figcaption,
-    .row-8 figcaption,
+    .row-1 .figcaption,
+    .row-2 .figcaption,
+    .row-3 .figcaption,
+    .row-4 .figcaption,
+    .row-5 .figcaption,
+    .row-6 .figcaption,
+    .row-7 .figcaption,
+    .row-8 .figcaption,
     .apple_content .caption {
        margin-left: 10px;
     }
