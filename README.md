@@ -18,5 +18,4 @@ Built with HTML and CSS
 Click on this [link](https://raw.githack.com/Elijahscriptdev/Responsive_design/ft-home-page/index.html)  to go to the live preview 
 
 ### AUTHORS
-[AMPAIRE PHEMIA](https://github.com/ampaire) 
-[Elijah Obominuru](https://github.com/Elijahscriptdev)
+[AMPAIRE PHEMIA](https://github.com/ampaire) and [Elijah Obominuru](https://github.com/Elijahscriptdev)
