@@ -746,11 +746,17 @@ footer {
 /* small screen width less than 769 first break point */
 
 @media (max-width: 768px) {
+
+  h2 {
+    margin: 10px 0 0 0;
+  }
+
   /* nav bar: */
 
   header {
     margin-bottom: 0;
   }
+
   #logo-container {
     align-items: center;
     background: linear-gradient(to bottom right, #c09, #f42 85%);
@@ -785,10 +791,6 @@ footer {
     width: 100%;
   }
 
-  #logo-container {
-    width: 100px;
-  }
-
   ul.second-list {
     display: none;
   }
@@ -803,7 +805,7 @@ footer {
     flex-direction: column;
   }
 
-  .logo{
+  .logo {
     display: none;
   }
 
@@ -835,7 +837,7 @@ footer {
     bottom: 5px;
     left: 1%;
   }
-  
+
   .first_article .par-one .par {
     display: flex;
     flex-direction: row;
@@ -932,10 +934,6 @@ footer {
   .funding_img {
     width: 100%;
     margin-top: 30px;
-  }
-
-  h2 {
-    margin: 10px 0 0 0;
   }
 
   /* section four: */
