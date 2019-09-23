@@ -16,6 +16,7 @@ header {
 
 #nav-container {
   height: 72px;
+  width: 100%;
 }
 
 #main-nav {
@@ -25,12 +26,7 @@ header {
 }
 
 #logo-container {
-  align-items: center;
-  background: linear-gradient(to bottom right, #c09, #f42 85%);
-  display: flex;
-  height: 55px;
-  justify-content: center;
-  width: 15%;
+  display: none;
 }
 
 .sticky {
@@ -223,7 +219,7 @@ ul li ul li:first-child {
   margin: 0;
   padding: 20px 15px;
   height: 55px;
-  width: 92%;
+  width: 100%;
 }
 
 .nav-icons {
@@ -271,6 +267,12 @@ ul li ul li:first-child {
   background-repeat: no-repeat;
   position: relative;
   height: 460px;
+}
+
+.logo {
+  width: 40%;
+  margin-left: 3%;
+  margin-top: 3%;
 }
 
 .img1 p {
@@ -340,9 +342,17 @@ ul li ul li:first-child {
 
 .second_item {
   color: white;
-  background-image: url(images/img6.jpg);
+  background-image: url(images/img2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   opacity: 0.7;
-  background-size: contain;
+  position: relative;
+}
+
+.second_item .par-one {
+  position: absolute;
+  bottom: 5px;
+  left: 1%;
 }
 
 .second_item .par-one .par {
@@ -393,17 +403,16 @@ figure {
 
 .latest_deals {
   width: 100%;
+  margin: 2%;
 }
 
-.deals {
-  background-image: url(images/img6.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  color: rgb(250, 249, 249);
-  height: 200px;
-  width: 300px;
-  overflow: hidden;
-  position: relative;
+.deals img {
+  width: 260px;
+}
+
+.deals a {
+  color: #000;
+  font-size: 12px;
 }
 
 .deals_content {
@@ -413,17 +422,8 @@ figure {
   grid-column-gap: 10px;
 }
 
-.deals div {
-  transform: rotate(45deg);
-  font-size: 14px;
-  font-weight: 700;
-  left: 8px;
-  position: relative;
+.strike-txt {
   text-align: center;
-  text-transform: uppercase;
-  top: 20px;
-  width: 100%;
-  z-index: -10;
 }
 
 .apple_content {
@@ -563,6 +563,10 @@ figure {
   width: 100%;
 }
 
+.deals_txt {
+  font-size: 13px;
+}
+
 /* footer: */
 
 footer {
@@ -639,6 +643,15 @@ footer {
     grid-row-start: 2;
     grid-row-end: 3;
   }
+
+  #logo-container {
+    align-items: center;
+    background: linear-gradient(to bottom right, #c09, #f42 85%);
+    display: flex;
+    height: 55px;
+    justify-content: center;
+    width: 15%;
+  }  
 
   /* section one : */
 
@@ -842,7 +855,8 @@ footer {
   .row-6 figure img,
   .row-7 figure img,
   .row-8 figure img,
-  .apple_content figure img {
+  .apple_content figure img, 
+  .deals img {
     width: 60px;
     height: 50px;
   }
@@ -859,14 +873,24 @@ footer {
     margin-left: 10px;
   }
 
+  .latest_deals {
+    width: 100%;
+    margin-left: 30px;
+  }
+
   .deals_content {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: column;
   }
 
   .deals {
-    width: 230px;
-    height: 200px;
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0;
+  }
+
+  .deals_txt {
+    margin-left: 20px;
   }
 
   .latest_funding_top {
