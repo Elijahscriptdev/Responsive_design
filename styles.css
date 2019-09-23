@@ -76,8 +76,8 @@ a {
 }
 
 .deals a {
-  color: white;
-  font-size: 20px;
+  color: #000;
+  font-size: 12px;
 }
 
 .img-des a {
@@ -378,6 +378,10 @@ figure {
   padding: 0 20px;
 }
 
+.deals img {
+  width: 260px;
+}
+
 .row-1 figure img,
 .row-2 figure img,
 .row-3 figure img,
@@ -404,15 +408,6 @@ figure {
 .latest_deals {
   width: 100%;
   margin: 2%;
-}
-
-.deals img {
-  width: 260px;
-}
-
-.deals a {
-  color: #000;
-  font-size: 12px;
 }
 
 .deals_content {
@@ -659,7 +654,7 @@ footer {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-column-gap: 20px;
-  }
+  } 
 
   .item1-class h3,
   .items-class h3,
@@ -847,6 +842,7 @@ footer {
     flex-direction: row;
   }
 
+  .deals img, 
   .row-1 figure img,
   .row-2 figure img,
   .row-3 figure img,
@@ -855,13 +851,12 @@ footer {
   .row-6 figure img,
   .row-7 figure img,
   .row-8 figure img,
-  .apple_content figure img, 
-  .deals img {
+  .apple_content figure img {
     width: 60px;
     height: 50px;
   }
 
-  .row-1 .figcaption,
+  .row-1 .figcaption, 
   .row-2 .figcaption,
   .row-3 .figcaption,
   .row-4 .figcaption,
