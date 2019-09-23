@@ -746,7 +746,6 @@ footer {
 /* small screen width less than 769 first break point */
 
 @media (max-width: 768px) {
-
   h2 {
     margin: 10px 0 0 0;
   }
