@@ -261,14 +261,7 @@ ul li ul li:first-child {
 
 .first_article {
   margin-left: 1%;
-  background-image: linear-gradient(
-      to top left,
-      rgb(184, 3, 3),
-      rgb(87, 2, 2),
-      rgb(8, 5, 5),
-      transparent
-    ),
-    url(images/img6.jpg);
+  background-image: linear-gradient(to top left,  rgb(184, 3, 3), rgb(87, 2, 2), rgb(8, 5, 5), transparent), url(images/img6.jpg);
   opacity: 0.8;
   background-size: contain;
   background-repeat: no-repeat;
