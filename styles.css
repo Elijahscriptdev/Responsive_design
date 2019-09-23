@@ -646,7 +646,7 @@ footer {
     height: 55px;
     justify-content: center;
     width: 15%;
-  }  
+  } 
 
   /* section one : */
 
@@ -654,8 +654,8 @@ footer {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-column-gap: 20px;
-  } 
-
+  }
+  
   .item1-class h3,
   .items-class h3,
   .items3-class h3 {
@@ -842,7 +842,7 @@ footer {
     flex-direction: row;
   }
 
-  .deals img, 
+  .deals img,
   .row-1 figure img,
   .row-2 figure img,
   .row-3 figure img,
@@ -856,7 +856,7 @@ footer {
     height: 50px;
   }
 
-  .row-1 .figcaption, 
+  .row-1 .figcaption,
   .row-2 .figcaption,
   .row-3 .figcaption,
   .row-4 .figcaption,
