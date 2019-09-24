@@ -428,10 +428,16 @@ figure {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 10px;
 }
 
-.apple_content figure img {
-  width: 320px;
+.apple_content {
+  width: 100%;
+  height: 200px;
+}
+
+.apple-fig img {
+  width: 100%;
   height: 200px;
 }
 
@@ -468,6 +474,7 @@ figure {
 }
 
 .apple_special {
+  margin-bottom: 100px;
   margin-left: 20px;
 }
 
@@ -675,6 +682,7 @@ footer {
   .deals_content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
   }
 
   .funding_img {
@@ -700,9 +708,10 @@ footer {
   .row-6 figure img,
   .row-7 figure img,
   .row-8 figure img,
-  .apple_content figure img,
+  .apple_content .apple-fig img,
   .deals {
-    width: 260px;
+    width: 100%;
+    margin-right: 10px;
     height: 200px;
   }
 
