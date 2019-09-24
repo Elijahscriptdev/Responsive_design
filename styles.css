@@ -385,6 +385,11 @@ figure {
   width: 260px;
 }
 
+.apple-fig img {
+  width: 100%;
+  height: 200px;
+}
+
 .row-1 figure img,
 .row-2 figure img,
 .row-3 figure img,
@@ -429,15 +434,6 @@ figure {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 10px;
-}
-
-.apple_content {
-  width: 100%;
-  height: 200px;
-}
-
-.apple-fig img {
-  width: 100%;
   height: 200px;
 }
 
